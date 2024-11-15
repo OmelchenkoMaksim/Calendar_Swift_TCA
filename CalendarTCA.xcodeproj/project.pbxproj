@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		968A98A72CE7798E00E679C8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 968A98A62CE7798E00E679C8 /* ComposableArchitecture */; };
+		968A98AD2CE77A8800E679C8 /* CalendarFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98AC2CE77A8800E679C8 /* CalendarFeature.swift */; };
+		968A98B02CE77B9D00E679C8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98AF2CE77B9D00E679C8 /* Event.swift */; };
+		968A98B32CE77BBD00E679C8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98B22CE77BBD00E679C8 /* CalendarView.swift */; };
+		968A98B52CE77C3100E679C8 /* CalendarGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98B42CE77C3100E679C8 /* CalendarGridView.swift */; };
+		968A98B92CE77C4F00E679C8 /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98B82CE77C4F00E679C8 /* EventsListView.swift */; };
+		968A98BB2CE77C7E00E679C8 /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98BA2CE77C7E00E679C8 /* AddEventView.swift */; };
+		968A98BE2CE77CA800E679C8 /* Calendar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968A98BD2CE77CA800E679C8 /* Calendar+Extensions.swift */; };
 		96E8DF402CE74D8B00C7EE3F /* CalendarTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DF3F2CE74D8B00C7EE3F /* CalendarTCAApp.swift */; };
-		96E8DF422CE74D8B00C7EE3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DF412CE74D8B00C7EE3F /* ContentView.swift */; };
 		96E8DF442CE74D8C00C7EE3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E8DF432CE74D8C00C7EE3F /* Assets.xcassets */; };
 		96E8DF472CE74D8C00C7EE3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E8DF462CE74D8C00C7EE3F /* Preview Assets.xcassets */; };
 		96E8DF512CE74D8C00C7EE3F /* CalendarTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DF502CE74D8C00C7EE3F /* CalendarTCATests.swift */; };
 		96E8DF5B2CE74D8C00C7EE3F /* CalendarTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DF5A2CE74D8C00C7EE3F /* CalendarTCAUITests.swift */; };
-		96E8DF5D2CE74D8C00C7EE3F /* CalendarTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DF5C2CE74D8C00C7EE3F /* CalendarTCAUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		968A98AC2CE77A8800E679C8 /* CalendarFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFeature.swift; sourceTree = "<group>"; };
+		968A98AF2CE77B9D00E679C8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		968A98B22CE77BBD00E679C8 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		968A98B42CE77C3100E679C8 /* CalendarGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarGridView.swift; sourceTree = "<group>"; };
+		968A98B82CE77C4F00E679C8 /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		968A98BA2CE77C7E00E679C8 /* AddEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		968A98BD2CE77CA800E679C8 /* Calendar+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extensions.swift"; sourceTree = "<group>"; };
+		968A98BF2CE7884600E679C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		96E8DF3C2CE74D8B00C7EE3F /* CalendarTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E8DF3F2CE74D8B00C7EE3F /* CalendarTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTCAApp.swift; sourceTree = "<group>"; };
-		96E8DF412CE74D8B00C7EE3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96E8DF432CE74D8C00C7EE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E8DF462CE74D8C00C7EE3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96E8DF4C2CE74D8C00C7EE3F /* CalendarTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E8DF502CE74D8C00C7EE3F /* CalendarTCATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTCATests.swift; sourceTree = "<group>"; };
 		96E8DF562CE74D8C00C7EE3F /* CalendarTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E8DF5A2CE74D8C00C7EE3F /* CalendarTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTCAUITests.swift; sourceTree = "<group>"; };
-		96E8DF5C2CE74D8C00C7EE3F /* CalendarTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				968A98A72CE7798E00E679C8 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +84,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		968A98AA2CE77A6A00E679C8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				968A98AB2CE77A7200E679C8 /* Calendar */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		968A98AB2CE77A7200E679C8 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				968A98AC2CE77A8800E679C8 /* CalendarFeature.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		968A98AE2CE77B8E00E679C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				968A98AF2CE77B9D00E679C8 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		968A98B12CE77BAF00E679C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				968A98B22CE77BBD00E679C8 /* CalendarView.swift */,
+				968A98B42CE77C3100E679C8 /* CalendarGridView.swift */,
+				968A98B82CE77C4F00E679C8 /* EventsListView.swift */,
+				968A98BA2CE77C7E00E679C8 /* AddEventView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		968A98BC2CE77C8C00E679C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				968A98BD2CE77CA800E679C8 /* Calendar+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		96E8DF332CE74D8B00C7EE3F = {
 			isa = PBXGroup;
 			children = (
+				968A98BF2CE7884600E679C8 /* README.md */,
+				968A98BC2CE77C8C00E679C8 /* Extensions */,
+				968A98B12CE77BAF00E679C8 /* Views */,
+				968A98AE2CE77B8E00E679C8 /* Models */,
+				968A98AA2CE77A6A00E679C8 /* Features */,
 				96E8DF3E2CE74D8B00C7EE3F /* CalendarTCA */,
 				96E8DF4F2CE74D8C00C7EE3F /* CalendarTCATests */,
 				96E8DF592CE74D8C00C7EE3F /* CalendarTCAUITests */,
@@ -95,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				96E8DF3F2CE74D8B00C7EE3F /* CalendarTCAApp.swift */,
-				96E8DF412CE74D8B00C7EE3F /* ContentView.swift */,
 				96E8DF432CE74D8C00C7EE3F /* Assets.xcassets */,
 				96E8DF452CE74D8C00C7EE3F /* Preview Content */,
 			);
@@ -122,7 +182,6 @@
 			isa = PBXGroup;
 			children = (
 				96E8DF5A2CE74D8C00C7EE3F /* CalendarTCAUITests.swift */,
-				96E8DF5C2CE74D8C00C7EE3F /* CalendarTCAUITestsLaunchTests.swift */,
 			);
 			path = CalendarTCAUITests;
 			sourceTree = "<group>";
@@ -134,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96E8DF602CE74D8C00C7EE3F /* Build configuration list for PBXNativeTarget "CalendarTCA" */;
 			buildPhases = (
+				9632FA452CE761BF008331DE /* ShellScript */,
 				96E8DF382CE74D8B00C7EE3F /* Sources */,
 				96E8DF392CE74D8B00C7EE3F /* Frameworks */,
 				96E8DF3A2CE74D8B00C7EE3F /* Resources */,
@@ -143,6 +203,9 @@
 			dependencies = (
 			);
 			name = CalendarTCA;
+			packageProductDependencies = (
+				968A98A62CE7798E00E679C8 /* ComposableArchitecture */,
+			);
 			productName = CalendarTCA;
 			productReference = 96E8DF3C2CE74D8B00C7EE3F /* CalendarTCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +278,9 @@
 				Base,
 			);
 			mainGroup = 96E8DF332CE74D8B00C7EE3F;
+			packageReferences = (
+				968A98A52CE7798E00E679C8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 96E8DF3D2CE74D8B00C7EE3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,13 +318,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9632FA452CE761BF008331DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\n# Определяем пути\nSWIFTFORMAT=\"/opt/homebrew/bin/swiftformat\"\nPROJECT_DIR=\"${SRCROOT}/CalendarTCA\"\n\necho \"🚀 Начинаем форматирование...\"\necho \"📁 Путь к проекту: $PROJECT_DIR\"\n\n# Проверяем наличие SwiftFormat\nif [ ! -f \"$SWIFTFORMAT\" ]; then\n    echo \"❌ SwiftFormat не найден! Установите его через brew install swiftformat\"\n    exit 1\nfi\n\n# Создаём временный скрипт для форматирования\nTEMP_SCRIPT=$(mktemp)\ncat > \"$TEMP_SCRIPT\" << EOL\n#!/bin/bash\n\n# Сохраняем текущего владельца и права\nsave_permissions() {\n    local file=\"\\$1\"\n    local owner=\\$(stat -f \"%u:%g\" \"\\$file\")\n    local perms=\\$(stat -f \"%A\" \"\\$file\")\n    echo \"\\$owner \\$perms\"\n}\n\n# Восстанавливаем владельца и права\nrestore_permissions() {\n    local file=\"\\$1\"\n    local owner=\"\\$2\"\n    local perms=\"\\$3\"\n    chown \\$owner \"\\$file\"\n    chmod \\$perms \"\\$file\"\n}\n\n# Форматируем файл\nformat_file() {\n    local file=\"\\$1\"\n    echo \"🔄 Форматирую: \\$file\"\n    \n    # Сохраняем оригинальные права\n    local permissions=\\$(save_permissions \"\\$file\")\n    \n    # Временно даём права на запись\n    chmod 644 \"\\$file\"\n    \n    $SWIFTFORMAT \"\\$file\" \\\n        --indent 4 \\\n        --indentcase true \\\n        --trimwhitespace always \\\n        --maxwidth 120 \\\n        --wraparguments before-first \\\n        --wrapcollections before-first \\\n        --commas always \\\n        --semicolons never \\\n        --swiftversion 5.0 \\\n        --verbose\n        \n    if [ \\$? -eq 0 ]; then\n        echo \"✅ Успешно отформатирован: \\$file\"\n    else\n        echo \"❌ Ошибка при форматировании: \\$file\"\n    fi\n    \n    # Восстанавливаем оригинальные права\n    restore_permissions \"\\$file\" \\$permissions\n}\n\necho \"🔍 Поиск Swift файлов в проекте...\"\n\nfind \"$PROJECT_DIR\" \\\n    -name \"*.swift\" \\\n    -type f \\\n    ! -path \"*/\\.*\" \\\n    ! -path \"*/Pods/*\" \\\n    ! -path \"*/Carthage/*\" \\\n    ! -path \"*/Build/*\" \\\n    ! -path \"*/DerivedData/*\" \\\n    ! -path \"*/\\.build/*\" \\\n    -print0 | while IFS= read -r -d '' file; do\n    format_file \"\\$file\"\ndone\n\n# Восстанавливаем права для всей директории проекта\nchown -R $(whoami):staff \"$PROJECT_DIR\"\nchmod -R 644 \"$PROJECT_DIR\"\nfind \"$PROJECT_DIR\" -type d -exec chmod 755 {} \\;\n\necho \"✨ Все файлы обработаны\"\nEOL\n\n# Делаем скрипт исполняемым\nchmod +x \"$TEMP_SCRIPT\"\n\n# Запускаем с повышенными правами через osascript\necho \"🔐 Запрашиваем права для форматирования...\"\nosascript << EOL\n    do shell script \"\\\"$TEMP_SCRIPT\\\"\" with administrator privileges\nEOL\n\n# Удаляем временный скрипт\nrm -f \"$TEMP_SCRIPT\"\n\necho \"🎉 Форматирование завершено!\"\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96E8DF382CE74D8B00C7EE3F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E8DF422CE74D8B00C7EE3F /* ContentView.swift in Sources */,
+				968A98B32CE77BBD00E679C8 /* CalendarView.swift in Sources */,
+				968A98BE2CE77CA800E679C8 /* Calendar+Extensions.swift in Sources */,
+				968A98B02CE77B9D00E679C8 /* Event.swift in Sources */,
+				968A98B52CE77C3100E679C8 /* CalendarGridView.swift in Sources */,
+				968A98BB2CE77C7E00E679C8 /* AddEventView.swift in Sources */,
+				968A98AD2CE77A8800E679C8 /* CalendarFeature.swift in Sources */,
 				96E8DF402CE74D8B00C7EE3F /* CalendarTCAApp.swift in Sources */,
+				968A98B92CE77C4F00E679C8 /* EventsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E8DF5B2CE74D8C00C7EE3F /* CalendarTCAUITests.swift in Sources */,
-				96E8DF5D2CE74D8C00C7EE3F /* CalendarTCAUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		968A98A52CE7798E00E679C8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		968A98A62CE7798E00E679C8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 968A98A52CE7798E00E679C8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96E8DF342CE74D8B00C7EE3F /* Project object */;
 }
